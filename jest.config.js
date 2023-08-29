@@ -1,4 +1,6 @@
-{
-  "bail": 1,
-  "verbose": true
-}
+/** @type {import('jest').Config} */
+const config = {
+  verbose: true,
+};
+
+module.exports = config;
