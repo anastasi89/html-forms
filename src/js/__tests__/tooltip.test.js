@@ -1,3 +1,6 @@
+/**
+ * @jest-environment jsdom
+ */
 import Tooltip from '../tooltip';
 
 document.documentElement.innerHTML = `
